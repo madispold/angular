@@ -7,9 +7,11 @@
 eventsApp.controller('EventController',
     function EventController($scope){
         $scope.boolValue = true;
+        $scope.sortOrder = 'name';
+        $scope.myClass = "blue";
         $scope.event = {
             name: 'Angular Boot Camp',
-            date: '1/1/2017',
+            date: 1359781015626,
             time: '10:30 am',
             location: {
                 address: 'Google Headquarters',
